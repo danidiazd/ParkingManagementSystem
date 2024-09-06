@@ -1,6 +1,6 @@
-package org.example.contexts.client.entity;
+package org.ParkingProyect.contexts.client.entity;
 
-import org.example.contexts.car.entity.Car;
+import org.ParkingProyect.contexts.car.entity.Car;
 
 
 import java.util.UUID;
@@ -11,11 +11,13 @@ public class Client {
     private final String firstName;
     private final String lastName;
     private final Car car;
+    private boolean payed = false;
 
     public Client(String firstName, String lastName, Car car) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.car = car;
+        this.payed = false;
     }
 
     public UUID getId() {
@@ -23,7 +25,7 @@ public class Client {
     }
 
 
-    public String getCar() {
+    public Car getCar() {
         return car;
     }
 

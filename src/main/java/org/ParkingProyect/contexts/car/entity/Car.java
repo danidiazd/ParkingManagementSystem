@@ -1,6 +1,6 @@
-package org.example.contexts.car.entity;
+package org.ParkingProyect.contexts.car.entity;
 
-import org.example.contexts.car.valueObject.LicensePlate;
+import org.ParkingProyect.contexts.car.valueObject.LicensePlate;
 
 import java.util.UUID;
 

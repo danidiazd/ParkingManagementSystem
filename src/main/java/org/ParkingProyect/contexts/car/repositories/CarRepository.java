@@ -1,7 +1,7 @@
-package org.example.contexts.car.repositories;
+package org.ParkingProyect.contexts.car.repositories;
 
-import org.example.contexts.car.entity.Car;
-import org.example.contexts.car.valueObject.LicensePlate;
+import org.ParkingProyect.contexts.car.entity.Car;
+import org.ParkingProyect.contexts.car.valueObject.LicensePlate;
 
 import java.util.Optional;
 

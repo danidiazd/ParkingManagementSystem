@@ -1,8 +1,8 @@
-package org.example.contexts.car.UserInterface;
+package org.ParkingProyect.contexts.car.UserInterface;
 
-import org.example.contexts.car.application.CarService;
-import org.example.contexts.car.entity.Car;
-import org.example.contexts.car.valueObject.LicensePlate;
+import org.ParkingProyect.contexts.car.application.CarService;
+import org.ParkingProyect.contexts.car.entity.Car;
+import org.ParkingProyect.contexts.car.valueObject.LicensePlate;
 
 import java.util.Scanner;
 

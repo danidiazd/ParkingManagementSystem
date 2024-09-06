@@ -1,6 +1,7 @@
-package org.example.contexts.client.repository;
+package org.ParkingProyect.contexts.client.repository;
 
-import org.example.contexts.client.entity.Client;
+import org.ParkingProyect.contexts.car.entity.Car;
+import org.ParkingProyect.contexts.client.entity.Client;
 
 import java.util.List;
 import java.util.Optional;
